@@ -10,4 +10,3 @@ libraryDependencies ++= Seq(
   "org.apache.hbase" % "hbase-client" % "2.3.5",
   "org.postgresql" % "postgresql" % "42.2.16"
 )
-
