@@ -76,5 +76,11 @@ public class TestProperties {
             e.printStackTrace();
         }
 
+        Properties prop3 = System.getProperties();
+        Set<String> st3 = prop3.stringPropertyNames();
+        for (String s3: st3) {
+            System.out.println(s3 + "=" + prop3.getProperty(s3));
+        }
+
     }
 }
